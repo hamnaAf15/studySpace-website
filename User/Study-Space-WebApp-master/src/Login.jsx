@@ -3,7 +3,6 @@ import './Login.css';
 import { FaGithub, FaGoogle } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
 const Login = () => {
   const navigate = useNavigate();
 

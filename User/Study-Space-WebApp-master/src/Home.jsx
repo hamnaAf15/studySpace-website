@@ -6,7 +6,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
+import homepageImg from './assets/homepage.png';
+import illustration1 from './assets/illustration-1.webp';
+import aboutImg from './assets/about.png';
 import Swiper from 'swiper';
 import AOS from 'aos';
 import GLightbox from 'glightbox';
@@ -197,7 +199,7 @@ const Home = () => {
 
               <div className="col-lg-6">
                 <div className="hero-image" data-aos="zoom-out" data-aos-delay="300">
-                  <img src="src/assets/homepage.png" alt="Loading" className="img-fluid" />
+                  <img src={homepageImg} alt="Loading" className="img-fluid" />
                   
                 </div>
               </div>
@@ -263,8 +265,8 @@ const Home = () => {
               <div className="col-xl-6" data-aos="fade-up" data-aos-delay="300">
                 <div className="image-wrapper">
                   <div className="images position-relative" data-aos="zoom-out" data-aos-delay="400">
-                    <img src="src/assets/illustration-1.webp" alt="Business Meeting" className="img-fluid main-image rounded-4" />
-                    <img src="src/assets/about.png" alt="Team Discussion" className="img-fluid small-image rounded-4" />
+                    <img src={illustration1} alt="Business Meeting" className="img-fluid main-image rounded-4" />
+<img src={aboutImg} alt="Team Discussion" className="img-fluid small-image rounded-4" />
                   </div>
                   <div className="experience-badge floating">
                     <h3>10+ <span>Features</span></h3>

@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   
-  background-image: url('src/assets/login.png'); 
+  background-image: url('./assets/login.png'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
   
-  background-image: url('src/assets/Forgot password3.png'); 
+  background-image: url('./assets/Forgot password3.png'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
