@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\models\\studyspacedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:models\\studyspacedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\controllers\\studyroomsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:controllers\\studyroomsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\controllers\\authprovidersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:controllers\\authprovidersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\views\\studyrooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:views\\studyrooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\controllers\\studyroomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:controllers\\studyroomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\views\\studyrooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:views\\studyrooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\views\\authproviders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:views\\authproviders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\studyspacewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:studyspacewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\controllers\\roommembersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:controllers\\roommembersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|c:\\users\\dell\\source\\repos\\studyspacewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D4B779-4D8A-406C-B5D4-E7FB99B28BFC}|studySpaceWebApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudySpaceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Models\\StudySpaceDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\StudySpaceDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Models\\StudySpaceDbContext.cs",
+              "RelativeToolTip": "Models\\StudySpaceDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T11:53:17.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-15T11:44:56.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudyRoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Controllers\\StudyRoomsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudyRoomsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Controllers\\StudyRoomsController.cs",
+              "RelativeToolTip": "Controllers\\StudyRoomsController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:27:33.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Views\\StudyRooms\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudyRooms\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Views\\StudyRooms\\Create.cshtml",
+              "RelativeToolTip": "Views\\StudyRooms\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T12:26:24.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-29T12:00:02.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T19:20:49.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudyRoomsApiController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Controllers\\StudyRoomsApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudyRoomsApiController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Controllers\\StudyRoomsApiController.cs",
+              "RelativeToolTip": "Controllers\\StudyRoomsApiController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:46:55.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthProvidersApiController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Controllers\\AuthProvidersApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthProvidersApiController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Controllers\\AuthProvidersApiController.cs",
+              "RelativeToolTip": "Controllers\\AuthProvidersApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T11:22:19.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Views\\StudyRooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudyRooms\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Views\\StudyRooms\\Index.cshtml",
+              "RelativeToolTip": "Views\\StudyRooms\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T12:04:58.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Views\\AuthProviders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AuthProviders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Views\\AuthProviders\\Index.cshtml",
+              "RelativeToolTip": "Views\\AuthProviders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T12:04:39.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersApiController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Controllers\\UsersApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersApiController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Controllers\\UsersApiController.cs",
+              "RelativeToolTip": "Controllers\\UsersApiController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:22:44.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "studySpaceWebApp.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\studySpaceWebApp.csproj",
+              "RelativeDocumentMoniker": "studySpaceWebApp.csproj",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\studySpaceWebApp.csproj",
+              "RelativeToolTip": "studySpaceWebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-24T20:18:39.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoomMembersApiController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Controllers\\RoomMembersApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoomMembersApiController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Controllers\\RoomMembersApiController.cs",
+              "RelativeToolTip": "Controllers\\RoomMembersApiController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T20:16:29.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\studySpaceWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T18:14:31.797Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

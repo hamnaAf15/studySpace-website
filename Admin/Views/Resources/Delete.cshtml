@@ -1,0 +1,50 @@
+﻿@model studySpaceWebApp.Models.Resource
+
+@{
+    ViewData["Title"] = "Delete Resource";
+}
+
+<h1 class="mb-4">Delete Resource</h1>
+
+<div class="alert alert-warning">
+    <h4 class="alert-heading">⚠️ Are you sure you want to delete this resource?</h4>
+    <p>This action is irreversible.</p>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-danger text-white">
+        <strong>Resource Details</strong>
+    </div>
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Title)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Title)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.FileType)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.FileType)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.FileUrl)</dt>
+            <dd class="col-sm-9">
+                <a href="@Model.FileUrl" target="_blank">@Model.FileUrl</a>
+            </dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.UploadedAt)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.UploadedAt)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.UploadedByNavigation)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.UploadedByNavigation.FullName)</dd>
+        </dl>
+    </div>
+</div>
+
+<form asp-action="Delete" class="mt-4">
+    <input type="hidden" asp-for="ResourceId" />
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-danger">
+            🗑️ Confirm Delete
+        </button>
+        <a asp-action="Index" class="btn btn-secondary">
+            ← Back to List
+        </a>
+    </div>
+</form>

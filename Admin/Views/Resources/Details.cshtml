@@ -1,0 +1,44 @@
+﻿@model studySpaceWebApp.Models.Resource
+
+@{
+    ViewData["Title"] = "Resource Details";
+}
+
+<h1 class="mb-4">Resource Details</h1>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-primary text-white">
+        <strong>@Model.Title</strong>
+    </div>
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Title)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Title)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.FileType)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.FileType)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.FileUrl)</dt>
+            <dd class="col-sm-9">
+                <a href="@Model.FileUrl" target="_blank">@Model.FileUrl</a>
+            </dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.UploadedAt)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.UploadedAt)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.UploadedByNavigation)</dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.UploadedByNavigation.FullName)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-4 d-flex gap-2">
+    <a asp-action="Edit" asp-route-id="@Model?.ResourceId" class="btn btn-primary">
+        ✏️ Edit
+    </a>
+    <a asp-action="Index" class="btn btn-secondary">
+        ← Back to List
+    </a>
+</div>

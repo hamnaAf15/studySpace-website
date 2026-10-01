@@ -1,0 +1,46 @@
+﻿@model studySpaceWebApp.Models.ViewModels.AdminDashboardViewModel
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Welcome, @ViewBag.AdminName 👋</h2>
+
+    <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow border-0 bg-primary text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total Users</h5>
+                    <p class="display-6 fw-bold">@Model.TotalUsers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow border-0 bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total Rooms</h5>
+                    <p class="display-6 fw-bold">@Model.TotalRooms</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow border-0 bg-warning text-dark">
+                <div class="card-body">
+                    <h5 class="card-title">Active Members</h5>
+                    <p class="display-6 fw-bold">@Model.ActiveMembers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow border-0 bg-danger text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total Polls</h5>
+                    <p class="display-6 fw-bold">@Model.TotalPolls</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

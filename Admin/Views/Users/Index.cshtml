@@ -1,0 +1,39 @@
+﻿@model IEnumerable<studySpaceWebApp.Models.User>
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+<h1 class="mb-4">Users</h1>
+
+<table class="table table-bordered table-striped table-hover shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().FullName)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Email)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().PasswordHash)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Role)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().CreatedAt)</th>
+            <th class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.FullName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td class="text-muted">••••••••••</td> <!-- Hide raw password hash -->
+                <td>@Html.DisplayFor(modelItem => item.Role)</td>
+                <td>@Html.DisplayFor(modelItem => item.CreatedAt)</td>
+                <td class="text-center">
+                    <div class="btn-group" role="group">
+                        <a asp-action="Edit" asp-route-id="@item.UserId" class="btn btn-sm btn-primary">✏️ Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.UserId" class="btn btn-sm btn-info text-white">🔍 Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.UserId" class="btn btn-sm btn-danger">🗑️ Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,45 @@
+﻿@model studySpaceWebApp.Models.RoomMember
+
+@{
+    ViewData["Title"] = "Edit Room Member";
+}
+
+<h1 class="mb-4">Edit Room Member</h1>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+            <input type="hidden" asp-for="MemberId" />
+
+            <div class="mb-3">
+                <label asp-for="RoomId" class="form-label fw-semibold"></label>
+                <select asp-for="RoomId" class="form-select" asp-items="ViewBag.RoomId"></select>
+                <span asp-validation-for="RoomId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="UserId" class="form-label fw-semibold"></label>
+                <select asp-for="UserId" class="form-select" asp-items="ViewBag.UserId"></select>
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="JoinedAt" class="form-label fw-semibold"></label>
+                <input asp-for="JoinedAt" class="form-control" />
+                <span asp-validation-for="JoinedAt" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <input type="submit" value="Save Changes" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

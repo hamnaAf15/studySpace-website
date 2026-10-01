@@ -1,0 +1,42 @@
+﻿@model studySpaceWebApp.Models.RoomMember
+
+@{
+    ViewData["Title"] = "Delete Room Member";
+}
+
+<h1 class="mb-4">Delete Room Member</h1>
+
+<div class="alert alert-warning">
+    <h4 class="alert-heading">⚠️ Are you sure you want to remove this member?</h4>
+    <p>This action cannot be undone.</p>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-danger text-white">
+        <strong>Room Member Details</strong>
+    </div>
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.JoinedAt)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.JoinedAt)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Room)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Room.RoomId)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.User)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.User.UserId)</dd>
+        </dl>
+    </div>
+</div>
+
+<form asp-action="Delete" class="mt-4">
+    <input type="hidden" asp-for="MemberId" />
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-danger">
+            🗑️ Confirm Delete
+        </button>
+        <a asp-action="Index" class="btn btn-secondary">
+            ← Back to List
+        </a>
+    </div>
+</form>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<studySpaceWebApp.Models.Resource>
+
+@{
+    ViewData["Title"] = "Resources";
+}
+
+<h1 class="mb-4">Resources</h1>
+
+<table class="table table-bordered table-striped table-hover shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Title)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().FileType)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().FileUrl)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().UploadedAt)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().UploadedByNavigation)</th>
+            <th class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                <td>@Html.DisplayFor(modelItem => item.FileType)</td>
+                <td>
+                    <a href="@item.FileUrl" target="_blank">@item.FileUrl</a>
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.UploadedAt)</td>
+                <td>
+                    @(item.UploadedByNavigation?.FullName ?? $"User #{item.UploadedBy}")
+                </td>
+                <td class="text-center">
+                    <div class="btn-group btn-group-sm" role="group">
+                        <a asp-action="Details" asp-route-id="@item.ResourceId" class="btn btn-primary">📄 Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.ResourceId" class="btn btn-danger">🗑️ Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

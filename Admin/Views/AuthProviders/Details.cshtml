@@ -1,0 +1,36 @@
+﻿@model studySpaceWebApp.Models.AuthProvider
+
+@{
+    ViewData["Title"] = "Authentication Provider Details";
+}
+
+<h1 class="mb-4">Authentication Provider Details</h1>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-info text-white">
+        <strong>@Model.ProviderName</strong>
+    </div>
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.ProviderName)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.ProviderName)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.ProviderKey)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.ProviderKey)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.User)</dt>
+            <dd class="col-sm-9">
+                @(Model.User?.FullName ?? $"User #{Model.UserId}")
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-4 d-flex gap-2">
+    <a asp-action="Edit" asp-route-id="@Model?.ProviderId" class="btn btn-primary">
+        ✏️ Edit
+    </a>
+    <a asp-action="Index" class="btn btn-secondary">
+        ← Back to List
+    </a>
+</div>

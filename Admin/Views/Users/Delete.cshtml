@@ -1,0 +1,48 @@
+﻿@model studySpaceWebApp.Models.User
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="mb-4">Delete User</h1>
+
+<div class="alert alert-warning">
+    <h4 class="alert-heading">⚠️ Are you sure you want to delete this user?</h4>
+    <p>This action cannot be undone.</p>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-danger text-white">
+        <strong>User Information</strong>
+    </div>
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.FullName)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.FullName)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Email)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.PasswordHash)</dt>
+            <dd class="col-sm-9 text-muted">••••••••••</dd>  <!-- Mask password hash -->
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Role)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Role)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.CreatedAt)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.CreatedAt)</dd>
+        </dl>
+    </div>
+</div>
+
+<form asp-action="Delete" class="mt-4">
+    <input type="hidden" asp-for="UserId" />
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-danger">
+            🗑️ Confirm Delete
+        </button>
+        <a asp-action="Index" class="btn btn-secondary">
+            ← Back to List
+        </a>
+    </div>
+</form>

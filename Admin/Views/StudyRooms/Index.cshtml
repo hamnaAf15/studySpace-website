@@ -1,0 +1,45 @@
+﻿@model IEnumerable<studySpaceWebApp.Models.StudyRoom>
+
+@{
+    ViewData["Title"] = "Study Rooms";
+}
+
+<h1 class="mb-4">Study Rooms</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success mb-3">
+        Create New Room
+    </a>
+</p>
+
+<table class="table table-bordered table-striped table-hover shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().RoomName)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().IsPrivate)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().AccessCode)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().CreatedAt)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().CreatedByNavigation)</th>
+            <th class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.RoomName)</td>
+                <td>@Html.DisplayFor(modelItem => item.IsPrivate)</td>
+                <td>@Html.DisplayFor(modelItem => item.AccessCode)</td>
+                <td>@Html.DisplayFor(modelItem => item.CreatedAt)</td>
+                <td>@Html.DisplayFor(modelItem => item.CreatedByNavigation.UserId)</td>
+                <td class="text-center">
+                    <div class="btn-group" role="group">
+                        <a asp-action="Edit" asp-route-id="@item.RoomId" class="btn btn-primary btn-sm">✏️ Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.RoomId" class="btn btn-info btn-sm text-white">🔍 Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.RoomId" class="btn btn-danger btn-sm">🗑️ Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

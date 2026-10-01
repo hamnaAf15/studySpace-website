@@ -1,0 +1,35 @@
+﻿@model IEnumerable<studySpaceWebApp.Models.AuthProvider>
+
+@{
+    ViewData["Title"] = "Authentication Providers";
+}
+
+<h1 class="mb-4">Authentication Providers</h1>
+
+<table class="table table-striped table-bordered table-hover shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().ProviderName)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().ProviderKey)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().User)</th>
+            <th class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ProviderName)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProviderKey)</td>
+                <td>
+                    @(item.User?.FullName ?? $"User #{item.UserId}")
+                </td>
+                <td class="text-center">
+                    <a asp-action="Details" asp-route-id="@item.ProviderId" class="btn btn-sm btn-info text-white">
+                        🔍 Details
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

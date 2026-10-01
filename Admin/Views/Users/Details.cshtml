@@ -1,0 +1,40 @@
+﻿@model studySpaceWebApp.Models.User
+
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<h1 class="mb-4">User Details</h1>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-info text-white">
+        <strong>User Information</strong>
+    </div>
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.FullName)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.FullName)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Email)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.PasswordHash)</dt>
+            <dd class="col-sm-9 text-muted">••••••••••</dd> <!-- Hide raw hash for security -->
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Role)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Role)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.CreatedAt)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.CreatedAt)</dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-4 d-flex gap-2">
+    <a asp-action="Edit" asp-route-id="@Model?.UserId" class="btn btn-primary">
+        ✏️ Edit
+    </a>
+    <a asp-action="Index" class="btn btn-secondary">
+        ← Back to List
+    </a>
+</div>
