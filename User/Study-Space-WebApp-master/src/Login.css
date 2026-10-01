@@ -1,0 +1,143 @@
+/* Reusing styles for Login with updated class names */
+
+.login-wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url('src/assets/login.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  box-sizing: border-box;
+} 
+.forgot-wrapper {
+   min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url('src/assets/Forgot password3.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.loginform-container {
+  margin-top: 9%;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 550px;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+}
+
+.login {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #0d83fd;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.loginform-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.loginform-row input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #edf0f2;
+  font-size: 16px;
+}
+
+.loginform-row input:focus {
+  border-color: #0d83fd;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 74, 173, 0.25);
+}
+
+.loginform-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+  min-width: 130px;
+  text-align: center;
+}
+
+.btn-signup {
+  background-color: #0d83fd;
+  color: #fff;
+}
+
+.btn-signup:hover {
+  background-color: #0d83fd;
+}
+
+.btn-clear {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.btn-clear:hover {
+  background-color: #e2e6ea;
+}
+
+.loginbtn-social {
+  padding: 8px 16px;
+  margin-left: 20%;
+  margin-right: 20%;
+  min-width: 100px;
+  flex: unset;
+}
+
+.signup-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-text {
+  color: #555;
+  margin-bottom: 8px;
+}
+.loginbtn {
+     background-color: #2d465e;
+  color: #fff;
+}
+.loginbtn:hover{
+   background-color: #2d465e;
+}

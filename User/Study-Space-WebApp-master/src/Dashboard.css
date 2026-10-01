@@ -1,0 +1,77 @@
+/* Prevent overlap with fixed header */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f8fb;
+}
+
+.dashboard-container {
+  margin-top: 70px; /* enough to push below fixed header */
+  min-height: calc(100vh - 70px);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  min-height: 100%;
+  position: sticky;
+  top: 70px;
+  background-color: #1e2a38;
+  color: #fff;
+}
+
+.sidebar h4 {
+  font-weight: 600;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.sidebar li:hover {
+  background-color: #2c3e50;
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px;
+  background-color: #fff;
+  min-height: 100%;
+}
+
+/* Profile */
+.profile-card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #0d83fd;
+}
+
+/* Stats */
+.stat-card {
+  border-radius: 10px;
+  text-align: left;
+}
+
+.stat-card h3 {
+  font-weight: 700;
+  margin-top: 10px;
+}

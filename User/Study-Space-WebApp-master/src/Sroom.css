@@ -1,0 +1,36 @@
+/* Scrollbar styling for webkit browsers */
+.bg-white[style*="overflow-y: auto"]::-webkit-scrollbar {
+  width: 12px; /* thicker scrollbar */
+}
+
+.bg-white[style*="overflow-y: auto"]::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+.bg-white[style*="overflow-y: auto"]::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+  border: 3px solid #f1f1f1; /* padding around scrollbar thumb */
+}
+
+.bg-white[style*="overflow-y: auto"]::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* For Firefox */
+.bg-white[style*="overflow-y: auto"] {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+/* Label styling to improve visibility */
+.bg-white h5 {
+  color: #222; /* darker color for better contrast */
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.room-footer {
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+}
